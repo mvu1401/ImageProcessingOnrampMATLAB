@@ -1,5 +1,5 @@
 # Image Processing Onramp #
-This is a note for information in the course "Image Processing Onramp"
+This is a note for information in the course "Image Processing Onramp" <br />
 Link: https://matlabacademy.mathworks.com/details/image-processing-onramp/imageprocessing
 
 ## outcome of the course:
@@ -11,18 +11,18 @@ Link: https://matlabacademy.mathworks.com/details/image-processing-onramp/imagep
 ## Import & Export image
 
 ### loading image
--> imread()
+-> imread() <br />
 eg: I = imread("0001.jpg")
 
 ### showing image
--> imshow()
+-> imshow() <br />
 eg: imshow(I)
 
 ### view images
--> imshowpair()
+-> imshowpair() <br />
 The "montage" option places the images A1 and A2 side by side, with A1 on the left and A2 on the right.
 eg: imshowpair(I, I2, montage)
 
 ### export processed image
--> imwrite()
+-> imwrite() <br />
 eg: imwrite(I1, "img.png")
