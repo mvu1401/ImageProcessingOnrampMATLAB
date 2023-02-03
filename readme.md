@@ -3,10 +3,10 @@ This is a note for information in the course "Image Processing Onramp" <br />
 Link: https://matlabacademy.mathworks.com/details/image-processing-onramp/imageprocessing
 
 ## outcome of the course:
-1. import -> Import, display, and manipulate color and grayscale images.
-2. preprocess & postprocess -> Improve image segmentation by using common pre- and postprocessing techniques.
-3. segment -> Create binary images by thresholding pixel intensity values.
-4. classify -> Develop a metric to classify an image, and apply that metric to a set of image files.
+1. **import** -> Import, display, and manipulate color and grayscale images.
+2. **preprocess & postprocess** -> Improve image segmentation by using common pre- and postprocessing techniques.
+3. **segment** -> Create binary images by thresholding pixel intensity values.
+4. **classify** -> Develop a metric to classify an image, and apply that metric to a set of image files.
 ## Import & Export image
 
 ### loading image
