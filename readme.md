@@ -8,7 +8,7 @@ Link: https://matlabacademy.mathworks.com/details/image-processing-onramp/imagep
 3. **segment** -> Create binary images by thresholding pixel intensity values.
 4. **classify** -> Develop a metric to classify an image, and apply that metric to a set of image files.
 ## Import & Export image
-
+-> Matlab image viewer app
 ### loading image
 -> imread() <br/>
 eg: I = imread("0001.jpg")
@@ -45,3 +45,18 @@ Using the "all" option finds the maximum across all values in the array. The bra
 ### grayscale
 why grayscale? because grayscale is 1/3 of RGB -> faster and simplier in processing <br/>
 grayscale conversion = weighted sum of the RGB planes
+
+### Contrast and Intensity Histograms
+-> imhist(gs): to see histogram <br/>
+-> imadjust(): automatically adjust constrast of grayscale image <br/>
+-> imlocalbrighten(): automatically adjust constrast of color image <br/>
+
+### image segmentation in Matlab
+
+### threshold intensity values
+convert to grayscale image, adjust the constrast, perform 
+"""
+thresh = 200;
+BW = gsAdj > thresh;
+imshow(BW)
+"""
