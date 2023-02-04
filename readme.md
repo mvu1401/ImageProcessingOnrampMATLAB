@@ -55,8 +55,8 @@ grayscale conversion = weighted sum of the RGB planes
 
 ### threshold intensity values
 convert to grayscale image, adjust the constrast, perform 
-"""
+```
 thresh = 200;
 BW = gsAdj > thresh;
 imshow(BW)
-"""
+```
