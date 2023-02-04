@@ -41,3 +41,7 @@ eg: [R, G, B] = imsplit(A)
 -> Rmax = max(R, [], "all") <br/>
 -> Rmin = min(R, [], "all") <br/>
 Using the "all" option finds the maximum across all values in the array. The brackets are required; they are placeholders for an unused input. 
+
+### grayscale
+why grayscale? because grayscale is 1/3 of RGB -> faster and simplier in processing <br/>
+grayscale conversion = weighted sum of the RGB planes
